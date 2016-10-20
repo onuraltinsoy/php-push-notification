@@ -7,5 +7,5 @@ $message = 'Hello World';
 $title = 'My App';
 
 //$title is optional
-PushNotification::sen($device_token, $message, $title);
+PushNotification::send($device_token, $message, $title);
 ```
